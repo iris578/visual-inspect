@@ -1,8 +1,8 @@
-# VisBug - Visual Development Tools
+# Visual Development Tools
 
-A powerful browser extension that provides visual development tools for web developers and designers. Inspect elements, visualize spacing, pick colors, analyze fonts, and navigate the DOM hierarchy with an intuitive visual interface.
+A powerful browser extension built on top of VisBug that provides visual development tools for web developers and designers. Inspect elements, visualize spacing, pick colors, analyze fonts, and navigate the DOM hierarchy with an intuitive visual interface.
 
-![VisBug Logo](icons/icon.svg)
+![Logo](icons/icon.svg)
 
 ## Features
 
@@ -87,14 +87,14 @@ Before installing, you need to create the extension icons:
    - Click "Select" or "Open"
 
 4. **Verify Installation**
-   - The VisBug icon should appear in your browser toolbar
-   - If you don't see it, click the puzzle piece icon and pin VisBug
+   - The extension icon should appear in your browser toolbar
+   - If you don't see it, click the puzzle piece icon and pin the extension
 
 #### Step 3: Test It Out
 
 1. Visit any website (try the included `test-page.html`)
-2. Click the VisBug icon in your toolbar
-3. Click "Activate VisBug"
+2. Click the extension icon in your toolbar
+3. Click "Activate"
 4. The toolbar should appear at the top of the page
 5. Try clicking elements with the Inspect tool!
 
@@ -110,8 +110,8 @@ Before installing, you need to create the extension icons:
 ### Activation
 
 **Method 1: Extension Popup**
-1. Click the VisBug icon in your browser toolbar
-2. Click "Activate VisBug"
+1. Click the extension icon in your browser toolbar
+2. Click "Activate"
 3. The toolbar will appear at the top of the page
 
 **Method 2: Keyboard Shortcut**
@@ -148,7 +148,7 @@ When you click an element in Inspect mode, the Element Navigator panel appears:
 ```
 devtools-extension/
 ├── manifest.json         # Extension configuration
-├── visbug.js            # Main VisBug tool (injected into pages)
+├── visbug.js            # Main visual tool (injected into pages)
 ├── background.js        # Background service worker
 ├── content.js           # Content script (keyboard shortcuts)
 ├── popup.html           # Extension popup UI
@@ -167,7 +167,7 @@ devtools-extension/
 
 1. Edit the relevant files
 2. Go to `chrome://extensions/`
-3. Click the refresh icon on the VisBug extension
+3. Click the refresh icon on the extension
 4. Reload any open pages to see changes
 
 ### Customization
@@ -186,8 +186,8 @@ Edit the key combination in `content.js` (line with `e.key === 'V'`).
 
 ## Keyboard Shortcuts
 
-- `Ctrl/⌘ + Shift + V` - Toggle VisBug on/off
-- `Esc` - Close hierarchy panel (when VisBug is active)
+- `Ctrl/⌘ + Shift + V` - Toggle tool on/off
+- `Esc` - Close hierarchy panel (when active)
 
 ## Browser Compatibility
 
@@ -202,7 +202,7 @@ Edit the key combination in `content.js` (line with `e.key === 'V'`).
 
 ## Privacy
 
-VisBug:
+This extension:
 - Does NOT collect any data
 - Does NOT send information to external servers
 - Runs entirely locally in your browser
@@ -248,7 +248,7 @@ MIT License - Feel free to use, modify, and distribute.
 
 ## Contributing
 
-This is a standalone extraction of VisBug from the Differ app. Feel free to:
+Feel free to:
 - Report bugs
 - Suggest features
 - Submit pull requests
