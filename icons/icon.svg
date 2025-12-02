@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="62" fill="#78E2FF"/>
+
+  <!-- Magnifying glass -->
+  <g stroke="#1a1a1a" stroke-width="10" fill="none" stroke-linecap="round">
+    <!-- Glass circle -->
+    <circle cx="54" cy="54" r="28"/>
+
+    <!-- Handle -->
+    <line x1="74" y1="74" x2="100" y2="100"/>
+  </g>
+</svg>
